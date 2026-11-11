@@ -92,7 +92,7 @@ function handleAddIncident(event) {
     const cleanDescription = descriptionInput.value.trim();
 
     if (!cleanTitle || !cleanDescription) {
-        alert('Por favor ingrese un título y una descripción válidos (no se permiten campos con solo espacios).');
+        alert('⚠️ Validación requerida: Ingrese un título y una descripción válidos con contenido real (no se admiten campos vacíos ni únicamente espacios en blanco).');
         return;
     }
 
@@ -124,7 +124,7 @@ function handleAddIncident(event) {
 
 // Eliminar incidencia por ID
 function deleteIncident(id) {
-    if (confirm(`¿Está seguro de que desea eliminar la incidencia ${id}?`)) {
+    if (confirm(`⚠️ ¿Está seguro de que desea eliminar permanentemente la incidencia ${id}? Esta acción no se puede deshacer.`)) {
         incidents = incidents.filter(item => item.id !== id);
         saveIncidents();
         renderApp();
@@ -181,7 +181,9 @@ function renderIncidentsList() {
     if (filtered.length === 0) {
         container.innerHTML = `
             <div class="empty-state">
-                <p>🔍 No se encontraron incidencias registradas ${currentFilter !== 'Todos' ? `con estado "${currentFilter}"` : ''}.</p>
+                <p style="font-size: 1.5rem; margin-bottom: 0.5rem;">📂</p>
+                <p style="font-weight: 600; color: var(--text-main); margin-bottom: 0.25rem;">No se encontraron incidencias</p>
+                <p>No existen incidencias registradas ${currentFilter !== 'Todos' ? `con estado "${currentFilter}"` : 'en el sistema'}. Puede registrar un nuevo caso utilizando el formulario superior.</p>
             </div>
         `;
         return;

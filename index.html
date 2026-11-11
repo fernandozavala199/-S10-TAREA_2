@@ -25,12 +25,12 @@
         <!-- Panel de Registro -->
         <section class="card form-section">
             <h2>➕ Registrar Nueva Incidencia</h2>
-            <p class="subtitle">Complete los campos requeridos para reportar una falla o requerimiento.</p>
+            <p class="subtitle">Complete la información requerida para registrar una falla técnica o solicitud de soporte del sistema.</p>
             
             <form id="incidentForm">
                 <div class="form-group">
                     <label for="title">Título de la Incidencia <span class="required">*</span></label>
-                    <input type="text" id="title" placeholder="Ej: Error 500 al iniciar sesión..." required>
+                    <input type="text" id="title" placeholder="Ej: Error 500 en pasarela de pagos al procesar orden de compra..." required>
                 </div>
 
                 <div class="form-row">
@@ -55,11 +55,11 @@
 
                 <div class="form-group">
                     <label for="description">Descripción Detallada <span class="required">*</span></label>
-                    <textarea id="description" rows="3" placeholder="Detalle los pasos para reproducir o el contexto de la incidencia..." required></textarea>
+                    <textarea id="description" rows="3" placeholder="Describa el comportamiento observado, pasos para reproducir la falla y el impacto en el servicio..." required></textarea>
                 </div>
 
                 <button type="submit" class="btn btn-primary" id="btnSubmit">
-                    Registrar Incidencia
+                    ➕ Registrar Incidencia
                 </button>
             </form>
         </section>

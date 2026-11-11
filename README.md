@@ -14,7 +14,7 @@ Aplicación web desarrollada para la gestión, registro, control de estados y re
 | Nombre y Apellido | Rol en el Proyecto | Usuario de GitHub |
 | :--- | :--- | :--- |
 | *Estudiante 1* | Integrador SCM / Release Manager | `@usuario1` |
-| *Estudiante 2* | Frontend Developer (Formulario & V1) | `@usuario2` |
+| ANGELA DENNISSE CAVERO MOSQUERA | Frontend Developer (Formulario & V1) | `@denniche96` |
 | *Estudiante 3* | Feature Developer (Filtro v1.1.0) | `@usuario3` |
 | *Estudiante 4* | QA / Hotfix Developer (Bugfix v1.1.1) | `@usuario4` |
 | *Estudiante 5* | DevOps / CI-CD Engineer (GitHub Actions) | `@usuario5` |

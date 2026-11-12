@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
 # Permisos requeridos para desplegar en GitHub Pages mediante GitHub Actions
@@ -44,6 +47,7 @@ jobs:
   # -------------------------------------------------------------
   deploy:
     name: 🚀 Despliegue en GitHub Pages
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

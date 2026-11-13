@@ -16,8 +16,8 @@ Aplicación web desarrollada para la gestión, registro, control de estados y re
 | FERNANDO JAVIER ZAVALA CATAÑA | Integrador SCM / Release Manager | [@fernandozavala199](https://github.com/fernandozavala199) |
 | ANGELA DENNISSE CAVERO MOSQUERA | Frontend Developer (Formulario & V1) | `@denniche96` |
 | FERNANDO JAVIER ZAVALA CATAÑA | Feature Developer (Filtro v1.1.0) | [@fernandozavala199](https://github.com/fernandozavala199) |
-| *Estudiante 4* | QA / Hotfix Developer (Bugfix v1.1.1) | `@usuario4` |
-| *Estudiante 5* | DevOps / CI-CD Engineer (GitHub Actions) | `@usuario5` |
+| CARLOS ANDRES SUAREZ CASTILLO | QA / Hotfix Developer (Bugfix v1.1.1) | `@AndresCarlosJs` |
+| CARLOS ANDRES SUAREZ CASTILLO | DevOps / CI-CD Engineer (GitHub Actions) | `@AndresCarlosJs` |
 
 ---
 
